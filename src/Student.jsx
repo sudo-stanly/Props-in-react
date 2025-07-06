@@ -4,8 +4,8 @@ function Student(props)
 {
     return(
         <>
-            <div className="card">
-                <img src={profilePicture} alt="profile picture" className="card-image" />
+            <div className="student">
+                <img src={profilePicture} alt="profile picture" className="student-image" />
                 <p>Name:{props.name}</p>
                 <p>Age:{props.age}</p>
                 <p>Student:{props.isStudent ? "Yes" : "No" }</p>
